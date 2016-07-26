@@ -1,0 +1,145 @@
+.close {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close1 {
+  position: absolute;
+  width: 20px;
+  height: 80px;
+  top: 10px;
+  left: 40px;
+  background-color: #c00;
+}
+
+.close2 {
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  top: 40px;
+  left: 10px;
+  background-color: #c00;
+}
+
+.ok {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.ok1 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  top: 60px;
+  left: 30px;
+  background-color: #0c0;
+}
+
+.ok2 {
+  position: absolute;
+  width: 20px;
+  height: 70px;
+  top: 10px;
+  left: 50px;
+  background-color: #0c0;
+}
+
+.rewind2, .rewind1 {
+  float: left;
+  margin: 40px 20px 80px 20px;
+}
+
+.rew {
+  float: left;
+  width: 0;
+  height: 0;
+}
+
+.rew.rew-top {
+  border-top: 10px solid transparent;
+  border-right: 15px solid #333;
+  border-bottom: 10px solid transparent;
+}
+
+.rew-end {
+  width: 5px;
+  height: 20px;
+  background-color: #333;
+}
+
+.play {
+  float: left;
+  margin: 40px 40px 80px 40px;
+  width: 0;
+  height: 0;
+}
+
+.play.top {
+  border-top: 10px solid transparent;
+  border-left: 15px solid #c00;
+  border-bottom: 10px solid transparent;
+}
+
+.forward1, .forward2 {
+  float: left;
+  margin: 40px 20px 80px 20px;
+}
+
+.forw {
+  float: left;
+  width: 0;
+  height: 0;
+}
+
+.forw.forw-top {
+  border-top: 10px solid transparent;
+  border-left: 15px solid #333;
+  border-bottom: 10px solid transparent;
+}
+
+.forw-end {
+  width: 5px;
+  height: 20px;
+  background-color: #333;
+}
+
+.hexagon {
+  clear: both;
+  position: relative;
+  width: 100px; 
+  height: 55px;
+  background-color: #666;
+  margin: 60px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 30px solid #666;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 30px solid #666;
+}
